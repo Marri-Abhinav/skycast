@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    min-height: 80vh;
+      background: linear-gradient(#74b9ff,#dfe6e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-size: 2.5rem;
+}
+.container{
+        padding: 20px;
+    text-align: center;
+    background-color:grey;
+    border-radius: 10px;
+   
+}
+.recent {
+    width: 350px;
+    margin: 15px auto;
+    background: antiquewhite;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-height: 200px;
+    overflow-y: auto;
+}
+.recent h5{
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+#histlist li{
+    padding: 10px;
+    margin: 8px 0;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+#histlist{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.search input{
+    width: 250px;
+    
+}
+button:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+#weather-icon{
+    height: 80px;
+    
+}
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.weathercard{
+    margin-top:15px;
+    width:350px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 20px;
+}
+#day{
+    display :flex;
+    justify-content: space-evenly;
+}

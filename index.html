@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather App</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <h1 id="title">SkyCast</h1>
+    <div class="search">
+        <input id="searchcity" type="text" placeholder="Enter City name..">
+        <button type="submit">Search</button>
+    </div>
+    <div class="recent">
+        <h5>Recent Searches</h5>
+        <ul id="histlist"></ul>
+    </div>
+    <div class="weathercard">
+     <h2 id="city-name">Hyderabad</h2>
+
+   <img id="weather-icon" src="image.png" alt="Weather Icon">
+
+   <h3 id="temperature">32°C</h3>
+
+    <p id="condition">Sunny</p>
+
+   <div class="weather-details">
+    <p>Humidity: 60%</p>
+    <p>Wind: 12 km/h</p>
+</div>
+    </div>
+    <div class="weathercard" id="forcast">
+        <h4>5-Day Forecast</h4>
+        <div id="day">
+            
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
